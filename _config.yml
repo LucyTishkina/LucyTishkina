@@ -2,8 +2,8 @@ title:              Lucy Tishkina
 email:              tester120938@example.com
 description:        This is the personal website of Lucy Tishkina where you will find information about my previous work experience and projects.
 author:             Lucy Tishkina
-baseurl:            "https://lucytishkina.github.io"
-url:                ""
+baseurl:            ""
+url:                "https://lucytishkina.github.io"
 
 # Social Profiles
 #twitter_username:   SBootstrap
