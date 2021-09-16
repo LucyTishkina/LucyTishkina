@@ -1,0 +1,20 @@
+title:              Lucy Tishkina
+email:              tester120938@example.com
+description:        This is the personal website of Lucy Tishkina where you will find information about my previous work experience and projects.
+author:             Lucy Tishkina
+baseurl:            ""
+url:                ""
+
+# Social Profiles
+#twitter_username:   SBootstrap
+github_username:    LucyTishkina
+linkedin_username:
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
