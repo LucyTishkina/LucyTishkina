@@ -1,19 +1,28 @@
-title:              Lucy Tishkina
-email:              tester120938@example.com
-description:        This is the personal website of Lucy Tishkina where you will find information about my previous work experience and projects.
-author:             Lucy Tishkina
+title:              "Lucy Tishkina"
+description:        This is my personal website where you will find information about my previous work experience and my projects.
+author:             ""
 baseurl:            ""
 url:                "https://lucytishkina.github.io"
 
 # Social Profiles
-#twitter_username:   SBootstrap
+#twitter_username:
 github_username:    LucyTishkina
 linkedin_username:
+
+collections:
+   posts:
+     permalink: "/posts/:path/"
+   projects:
+     output: true
+     permalink: "/projects/:path/"
+   experience:
+     permalink: "/experience/:path/"
+     output: true
 
 # Build settings
 markdown:           kramdown
 paginate:           5
-paginate_path:      "/posts/page:num/"
+#paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
